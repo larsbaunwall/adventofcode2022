@@ -1,6 +1,6 @@
-namespace advent_missions._01;
+namespace MissionReport._01;
 
-public class Tests
+public class Missions
 {
     private async Task<string[]> ReadData()
     {

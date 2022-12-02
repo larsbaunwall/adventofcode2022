@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "advent_missions", "advent_missions\advent_missions.csproj", "{A7904AD3-343A-4FAC-ABC4-8F8EF8D21DC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissionReport", "MissionReport\MissionReport.csproj", "{A7904AD3-343A-4FAC-ABC4-8F8EF8D21DC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
