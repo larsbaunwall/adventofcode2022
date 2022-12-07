@@ -10,7 +10,7 @@ public class Missions
 
     private static IEnumerable<string> ReadData()
     {
-        return File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, "05", "data.txt")).Skip(10);
+        return File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, "05", "data.txt"));
     }
 
     public Missions(ITestOutputHelper output)
@@ -45,6 +45,7 @@ public class Missions
         };
         
         var instructions = ReadData()
+            .Skip(10)
             .Select(x => x.Split(" "));
 
         // move 3 from 5 to 2
@@ -95,6 +96,7 @@ public class Missions
         };
         
         var instructions = ReadData()
+            .Skip(10)
             .Select(x => x.Split(" "));
 
         // move 3 from 5 to 2
